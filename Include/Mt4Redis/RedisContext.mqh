@@ -31,7 +31,8 @@ int      mt4RedisGetReply(int);
 #include "RedisReply.mqh"
 
 //+------------------------------------------------------------------+
-//| Redis context: a connection to the redis server                  |
+//| RedisContext: a connection to the redis server                   |
+//| Wraps a hiredis RedisContext                                     |
 //+------------------------------------------------------------------+
 class RedisContext
   {
