@@ -36,4 +36,7 @@ handle errors comprehensively.
 
 ## Changes
 
-2016-07-23: 1.0 Released.
+2016-12-09: Release 0.2. Add a Redis module that implements most commonly used
+key management, string, hash, and connection commands.
+
+2016-07-23: Released 0.1.
