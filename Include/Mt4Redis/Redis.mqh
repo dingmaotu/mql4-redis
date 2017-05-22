@@ -15,6 +15,8 @@
 class Redis: public RedisBase
   {
 public:
+                     Redis(RedisContext *c):RedisBase(c) {}
+
    //--- key management
    int               keys(const string pattern,string &keys[])
      {return arrayCommand("keys "+pattern,keys);}
